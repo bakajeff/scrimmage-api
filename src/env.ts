@@ -8,6 +8,7 @@ config({
 
 const schema = z.object({
 	DATABASE_URL: z.string(),
+	JWT_SECRET: z.string(),
 	PORT: z.number().default(3000),
 });
 

@@ -7,6 +7,7 @@
 		"dev": "bun run --watch src/index.ts"
 	},
 	"dependencies": {
+		"@elysiajs/jwt": "^1.4.0",
 		"@paralleldrive/cuid2": "^3.0.6",
 		"bcryptjs": "^3.0.3",
 		"drizzle-orm": "^0.45.1",
